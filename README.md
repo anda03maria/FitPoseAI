@@ -1,5 +1,7 @@
 # FitPoseAI
 
+## Exercise Execution Evaluation Based on Body Posture Using Neural Networks
+
  This repository contains the source code and documentation for my bachelor's thesis, developed as part of my studies at the Faculty of Mathematics and Computer Science, Babeș-Bolyai University (UBB), 2025. 
 
 
