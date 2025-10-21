@@ -1,0 +1,148 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    min-height: 100vh;
+    background-color: #111827;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .home-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    flex-direction: column;
+    padding: 2rem;
+    box-sizing: border-box;
+    overflow: hidden;
+  }
+
+.logo-container {
+    position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 1000px;
+  height: 1000px;
+  transform: translate(-50%, -50%);
+  background-image: url('../assets/image.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  opacity: 1;
+  z-index: 0;
+  pointer-events: none;  
+}
+  
+.content {
+    z-index: 1;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title-feedback {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #3b82f6;
+    margin-bottom: 1rem;
+  }
+  
+  .result-image {
+    width: 388px;
+    border-radius: 12px;
+    border: 6px solid;
+    margin-bottom: 1rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  .border-green {
+    border-color: #16a34a;
+  }
+  
+  .border-red {
+    border-color: #dc2626;
+  }
+  
+  .result-box {
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 1rem 2rem;
+    border-radius: 0.75rem;
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+  
+  .correct {
+    background-color: #1f2937;
+    color: #15803d;
+    border: 2px solid #15803d;
+  }
+  
+  .incorrect {
+    background-color: #1f2937;
+    color: #b91c1c;
+    border: 2px solid #b91c1c;
+  }
+  
+  .home-button {
+    background-color: #83cc16;
+    color: #0f172a;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    padding: 1rem;
+    margin-top: 1rem;
+    border-radius: 0.75rem;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  .home-button:hover {
+    background-color: #65a30d;
+  }
+
+  .upload-box {
+    background: #1f2937;
+    padding: 2rem;
+    border-radius: 1rem;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+  }
+
+  .benefits {
+    list-style: none;
+    padding: 0;
+    margin-top: 2rem;
+    font-size: 0.95rem;
+    color: #a1a1aa;
+    text-align: center;
+}
+
+.benefits li {
+    margin-bottom: 0.5rem;
+}
+  
+.footer {
+    margin-top: 3rem;
+    font-size: 0.8rem;
+    color: #64748b;
+    text-align: center;
+}
+
+.feedback-message.incorrect {
+    background-color: #7f1d1d;
+    color: #fff;
+    padding: 1rem;
+    border-radius: 0.75rem;
+    margin-top: 1rem;
+    max-width: 400px;
+    text-align: center;
+    border: 2px solid #dc2626;
+  }

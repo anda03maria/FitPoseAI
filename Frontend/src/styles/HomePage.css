@@ -1,0 +1,128 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    min-height: 100vh;
+    background-color: #111827;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .home-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    flex-direction: column;
+    padding: 2rem;
+    box-sizing: border-box;
+    overflow: hidden;
+  }
+
+.logo-container {
+    position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 1000px;
+  height: 1000px;
+  transform: translate(-50%, -50%);
+  background-image: url('../assets/image.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  opacity: 1;
+  z-index: 0;
+  pointer-events: none;  
+}
+  
+.content {
+    z-index: 1;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+  .title-app {
+    color: #3b82f6;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+
+  .title-ai {
+    color: #6b7280;
+  }  
+  
+  .exercise-box {
+    background: #1f2937;
+    padding: 2rem;
+    border-radius: 1rem;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+  }
+
+  .text-label {
+    font-size: 1.1rem;
+    color: #cbd5e1;
+    margin-bottom: 0.5rem;
+  }
+  
+  .exercise-select {
+    width: 100%;
+    padding: 0.75rem 1rem;
+    margin-top: 1rem;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    background-color: #0f172a;
+    color: #f1f5f9;
+    border: 1px solid #475569;
+  }
+
+  .exercise-select:focus {
+    outline: none;
+    border-color: #3b82f6;
+    box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.5);
+  }
+  
+  .submit-btn {
+    background-color: #83cc16;
+    color: #0f172a;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    padding: 1rem;
+    margin-top: 1rem;
+    border-radius: 0.75rem;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+.submit-btn:hover {
+    background-color: #65a30d;
+}
+
+.benefits {
+    list-style: none;
+    padding: 0;
+    margin-top: 2rem;
+    font-size: 0.95rem;
+    color: #a1a1aa;
+    text-align: center;
+}
+
+.benefits li {
+    margin-bottom: 0.5rem;
+}
+  
+.footer {
+    margin-top: 3rem;
+    font-size: 0.8rem;
+    color: #64748b;
+    text-align: center;
+}
